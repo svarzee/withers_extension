@@ -1,7 +1,7 @@
 name: withers_extension
 version: 0.1.0
 author: svarzee <svarzee@gmail.com>
-homepage: https://github.com/svarzee/class_extensions
+homepage: https://github.com/svarzee/withers_extension
 description: >-
   Uses class_extensions to generate withers.
   Withers are a convenient way of constructing copies of immutable objects with altered values.
