@@ -1,0 +1,8 @@
+builders:
+  withers:
+    import: "package:withers_extension/builder.dart"
+    builder_factories: ["withersBuilder"]
+    build_extensions: {".dart": ["withers.g.part"]}
+    applies_builders: ["class_extensions|extension_start", "class_extensions|extension_end", "source_gen|combining_builder"]
+    auto_apply: dependents
+    build_to: cache
