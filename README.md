@@ -78,3 +78,5 @@ Tutorial
       var other = some.withIntVal(1).withStrVal("other");
     }
     ```
+
+7. You can also see the [example](https://github.com/svarzee/withers_extension/tree/master/example).
