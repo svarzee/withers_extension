@@ -8,7 +8,7 @@ class WithersGenerator extends GeneratorForAnnotation<Withers> {
   String generateForAnnotatedElement(
       Element element, ConstantReader annotation, BuildStep buildStep) {
     ClassElement clazz = element;
-    final out = new StringBuffer();
+    final out = StringBuffer();
     clazz.fields.forEach((field) => out.writeln(generateWither(clazz, field)));
     return out.toString();
   }
@@ -20,7 +20,7 @@ class WithersGenerator extends GeneratorForAnnotation<Withers> {
   }
 
   String generateCtor(ClassElement clazz, FieldElement field) {
-    final out = new StringBuffer();
+    final out = StringBuffer();
     out.write('(');
     out.write(clazz.unnamedConstructor.parameters
         .map((param) => generateCtorArg(clazz, field, param))
