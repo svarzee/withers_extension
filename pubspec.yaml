@@ -4,6 +4,7 @@ author: svarzee <svarzee@gmail.com>
 homepage: https://github.com/svarzee/class_extensions
 description: >-
   Uses class_extensions to generate withers.
+  Withers are a convenient way of constructing copies of immutable objects with altered values.
 environment:
   sdk: '>=2.3.0 <3.0.0'
 
