@@ -1,3 +1,6 @@
+## 0.2.0
+* Make internal generator methods private
+
 ## 0.1.2
 * Update README.md
 * Add example README.md
