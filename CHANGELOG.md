@@ -1,3 +1,6 @@
+## 0.1.0
+* Add example
+
 ## 0.0.2
 * Improve package description
 
