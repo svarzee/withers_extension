@@ -1,7 +1,7 @@
 name: withers_extension_annotations
 version: 0.0.0
 author: svarzee <svarzee@gmail.com>
-homepage: https://github.com/svarzee/withers_extension_annotations
+homepage: https://github.com/svarzee/withers_extension
 description: >-
   Annotations to use with withers_extension.
 environment:
