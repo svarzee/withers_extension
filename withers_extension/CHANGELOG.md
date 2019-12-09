@@ -1,3 +1,6 @@
+## 0.3.0
+* Extract annotations to separate package
+
 ## 0.2.0
 * Make internal generator methods private
 

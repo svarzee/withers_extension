@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
-import 'package:withers_extension/annotations.dart';
+import 'package:withers_extension_annotations/annotations.dart';
 
 class WithersGenerator extends GeneratorForAnnotation<Withers> {
   @override
