@@ -26,7 +26,7 @@ Tutorial
     ##### `${PROJECT_ROOT}/lib/model.dart`
     ```dart
     import 'package:meta/meta.dart';
-    import 'package:withers_extension/annotations.dart';
+    import 'package:withers_extension_annotations/annotations.dart';
     
     part 'model.g.dart';
     
@@ -56,13 +56,15 @@ Tutorial
     ##### `${PROJECT_ROOT}/pubspec.yaml`
     ```yaml
     name: example
-    
+
     dependencies:
-      class_extensions: 0.1.1
-      withers_extension: 0.0.0
-    
+      class_extensions_annotations: ^0.0.0
+      withers_extension_annotations: ^0.0.0
+
     dev_dependencies:
       build_runner: ^1.0.0
+      class_extensions: ^0.2.0
+      withers_extension: ^0.4.0
     ```
 
 5. Run code generation: `pub run build_runner build`. File `${PROJECT_ROOT}/lib/model.g.dart` should be created.

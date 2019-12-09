@@ -1,3 +1,6 @@
+## 0.4.2
+* Update README.md
+
 ## 0.4.1
 * Update example
 
