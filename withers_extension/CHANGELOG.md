@@ -1,3 +1,6 @@
+## 0.4.0
+Upgrade class_extensions dependency
+
 ## 0.3.0
 * Extract annotations to separate package
 
