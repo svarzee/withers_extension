@@ -1,3 +1,6 @@
+## 0.4.1
+* Update example
+
 ## 0.4.0
 * Upgrade class_extensions dependency
 

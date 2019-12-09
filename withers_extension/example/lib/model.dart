@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import 'package:withers_extension/annotations.dart';
+import 'package:withers_extension_annotations/annotations.dart';
 
 part 'model.g.dart';
 
