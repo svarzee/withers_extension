@@ -81,4 +81,4 @@ Tutorial
     }
     ```
 
-7. You can also see the [example](https://github.com/svarzee/withers_extension/tree/master/example).
+7. You can also see the [example](https://github.com/svarzee/withers_extension/tree/master/withers_extension/example).
