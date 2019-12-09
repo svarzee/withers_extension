@@ -1,6 +1,9 @@
 Description
 ---
-This package uses class_extensions to generate withers.
+Uses class_extensions to generate withers.
+Withers are a convenient way of constructing copies of immutable objects with altered values.
+
+See also [to_string_extension](https://pub.dev/packages/to_string_extension)
 
 Tutorial
 ---

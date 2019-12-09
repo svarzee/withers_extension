@@ -1,3 +1,6 @@
+## 0.5.2
+* Improve README.md
+
 ## 0.5.1
 * Fix example link
 
