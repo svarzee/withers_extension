@@ -6,3 +6,6 @@ description: >-
   Annotations to use with withers_extension.
 environment:
   sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  class_extensions_annotations: ^0.0.0
