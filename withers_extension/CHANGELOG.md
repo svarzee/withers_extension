@@ -1,3 +1,6 @@
+## 0.5.3
+* Update README.md
+
 ## 0.5.2
 * Improve README.md
 

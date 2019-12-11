@@ -3,7 +3,7 @@ Description
 Uses class_extensions to generate withers.
 Withers are a convenient way of constructing copies of immutable objects with altered values.
 
-See also [to_string_extension](https://pub.dev/packages/to_string_extension)
+See also [to_string_extension](https://pub.dev/packages/to_string_extension), [json_extension](https://pub.dev/packages/json_extension)
 
 Tutorial
 ---
