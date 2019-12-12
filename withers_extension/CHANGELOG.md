@@ -1,3 +1,6 @@
+## 0.6.0
+* Upgrade class_extensions dependency
+
 ## 0.5.3
 * Update README.md
 
