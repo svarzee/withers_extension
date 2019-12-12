@@ -11,3 +11,12 @@ class SomeValueClass with _$SomeValueClass {
 
   SomeValueClass(this.strVal, this.intVal);
 }
+
+@Withers()
+@immutable
+class SomeValueClass2 with _$SomeValueClass2 {
+  final String strVal;
+  final int intVal;
+
+  SomeValueClass2(this.strVal, this.intVal);
+}

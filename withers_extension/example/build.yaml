@@ -1,6 +1,6 @@
 targets:
   $default:
     builders:
-      withers_extension|withers:
+      class_extensions:
         generate_for:
         - lib/*.dart

@@ -1,3 +1,7 @@
+## 0.7.0
+* Fix build configuration
+* Upgrade class_extensions dependency
+
 ## 0.6.0
 * Upgrade class_extensions dependency
 
