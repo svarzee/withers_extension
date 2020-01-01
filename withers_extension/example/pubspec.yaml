@@ -1,8 +1,8 @@
 name: example
 
 dependencies:
-  withers_extension_annotations: ^0.1.0
+  withers_extension_annotations: ^0.2.0
 
 dev_dependencies:
   build_runner: ^1.0.0
-  withers_extension: ^0.7.0
+  withers_extension: ^0.8.0
