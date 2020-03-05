@@ -10,7 +10,10 @@ class WithersGenerator extends ClassExtensionGenerator<Withers> {
       Element element, ConstantReader annotation, BuildStep buildStep) {
     ClassElement clazz = element;
     final out = StringBuffer();
-    clazz.fields.forEach((field) => out.writeln(_generateWither(clazz, field)));
+    final ctrParamNames = clazz.unnamedConstructor.parameters.map((e) => e.name).toSet();
+    clazz.fields
+        .where((field) => ctrParamNames.contains(field.name))
+        .forEach((field) => out.writeln(_generateWither(clazz, field)));
     return out.toString();
   }
 
