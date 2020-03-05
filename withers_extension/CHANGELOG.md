@@ -1,3 +1,6 @@
+## 0.9.0
+* Generate withers only for fields in ctor
+
 ## 0.8.0
 * Upgrade dependencies
 
